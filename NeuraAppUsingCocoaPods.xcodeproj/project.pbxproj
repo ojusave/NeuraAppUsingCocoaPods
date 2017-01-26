@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321CF3C81E398159001DD64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3C71E398159001DD64D /* AppDelegate.swift */; };
+		321CF3CA1E398159001DD64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3C91E398159001DD64D /* ViewController.swift */; };
+		321CF3CD1E398159001DD64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321CF3CB1E398159001DD64D /* Main.storyboard */; };
+		321CF3D01E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3CE1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodeld */; };
+		321CF3D21E398159001DD64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321CF3D11E398159001DD64D /* Assets.xcassets */; };
+		321CF3D51E398159001DD64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321CF3D31E398159001DD64D /* LaunchScreen.storyboard */; };
+		321CF3E01E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3DF1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift */; };
+		321CF3EB1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3EA1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		321CF3DC1E398159001DD64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321CF3BC1E398158001DD64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321CF3C31E398159001DD64D;
+			remoteInfo = NeuraAppUsingCocoaPods;
+		};
+		321CF3E71E398159001DD64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321CF3BC1E398158001DD64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321CF3C31E398159001DD64D;
+			remoteInfo = NeuraAppUsingCocoaPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		321CF3C41E398159001DD64D /* NeuraAppUsingCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraAppUsingCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321CF3C71E398159001DD64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		321CF3C91E398159001DD64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		321CF3CC1E398159001DD64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		321CF3CF1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeuraAppUsingCocoaPods.xcdatamodel; sourceTree = "<group>"; };
+		321CF3D11E398159001DD64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		321CF3D41E398159001DD64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		321CF3D61E398159001DD64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321CF3DB1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraAppUsingCocoaPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321CF3DF1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraAppUsingCocoaPodsTests.swift; sourceTree = "<group>"; };
+		321CF3E11E398159001DD64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321CF3E61E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraAppUsingCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321CF3EA1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraAppUsingCocoaPodsUITests.swift; sourceTree = "<group>"; };
+		321CF3EC1E398159001DD64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321CF3C11E398159001DD64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3D81E398159001DD64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3E31E398159001DD64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321CF3BB1E398158001DD64D = {
+			isa = PBXGroup;
+			children = (
+				321CF3C61E398159001DD64D /* NeuraAppUsingCocoaPods */,
+				321CF3DE1E398159001DD64D /* NeuraAppUsingCocoaPodsTests */,
+				321CF3E91E398159001DD64D /* NeuraAppUsingCocoaPodsUITests */,
+				321CF3C51E398159001DD64D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		321CF3C51E398159001DD64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321CF3C41E398159001DD64D /* NeuraAppUsingCocoaPods.app */,
+				321CF3DB1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.xctest */,
+				321CF3E61E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		321CF3C61E398159001DD64D /* NeuraAppUsingCocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				321CF3C71E398159001DD64D /* AppDelegate.swift */,
+				321CF3C91E398159001DD64D /* ViewController.swift */,
+				321CF3CB1E398159001DD64D /* Main.storyboard */,
+				321CF3D11E398159001DD64D /* Assets.xcassets */,
+				321CF3D31E398159001DD64D /* LaunchScreen.storyboard */,
+				321CF3D61E398159001DD64D /* Info.plist */,
+				321CF3CE1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodeld */,
+			);
+			path = NeuraAppUsingCocoaPods;
+			sourceTree = "<group>";
+		};
+		321CF3DE1E398159001DD64D /* NeuraAppUsingCocoaPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				321CF3DF1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift */,
+				321CF3E11E398159001DD64D /* Info.plist */,
+			);
+			path = NeuraAppUsingCocoaPodsTests;
+			sourceTree = "<group>";
+		};
+		321CF3E91E398159001DD64D /* NeuraAppUsingCocoaPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				321CF3EA1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift */,
+				321CF3EC1E398159001DD64D /* Info.plist */,
+			);
+			path = NeuraAppUsingCocoaPodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321CF3C31E398159001DD64D /* NeuraAppUsingCocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321CF3EF1E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPods" */;
+			buildPhases = (
+				321CF3C01E398159001DD64D /* Sources */,
+				321CF3C11E398159001DD64D /* Frameworks */,
+				321CF3C21E398159001DD64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuraAppUsingCocoaPods;
+			productName = NeuraAppUsingCocoaPods;
+			productReference = 321CF3C41E398159001DD64D /* NeuraAppUsingCocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		321CF3DA1E398159001DD64D /* NeuraAppUsingCocoaPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321CF3F21E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsTests" */;
+			buildPhases = (
+				321CF3D71E398159001DD64D /* Sources */,
+				321CF3D81E398159001DD64D /* Frameworks */,
+				321CF3D91E398159001DD64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321CF3DD1E398159001DD64D /* PBXTargetDependency */,
+			);
+			name = NeuraAppUsingCocoaPodsTests;
+			productName = NeuraAppUsingCocoaPodsTests;
+			productReference = 321CF3DB1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		321CF3E51E398159001DD64D /* NeuraAppUsingCocoaPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321CF3F51E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsUITests" */;
+			buildPhases = (
+				321CF3E21E398159001DD64D /* Sources */,
+				321CF3E31E398159001DD64D /* Frameworks */,
+				321CF3E41E398159001DD64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321CF3E81E398159001DD64D /* PBXTargetDependency */,
+			);
+			name = NeuraAppUsingCocoaPodsUITests;
+			productName = NeuraAppUsingCocoaPodsUITests;
+			productReference = 321CF3E61E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321CF3BC1E398158001DD64D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Neura;
+				TargetAttributes = {
+					321CF3C31E398159001DD64D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGQPHYL32T;
+						ProvisioningStyle = Automatic;
+					};
+					321CF3DA1E398159001DD64D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGQPHYL32T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 321CF3C31E398159001DD64D;
+					};
+					321CF3E51E398159001DD64D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGQPHYL32T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 321CF3C31E398159001DD64D;
+					};
+				};
+			};
+			buildConfigurationList = 321CF3BF1E398158001DD64D /* Build configuration list for PBXProject "NeuraAppUsingCocoaPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 321CF3BB1E398158001DD64D;
+			productRefGroup = 321CF3C51E398159001DD64D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				321CF3C31E398159001DD64D /* NeuraAppUsingCocoaPods */,
+				321CF3DA1E398159001DD64D /* NeuraAppUsingCocoaPodsTests */,
+				321CF3E51E398159001DD64D /* NeuraAppUsingCocoaPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321CF3C21E398159001DD64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321CF3D51E398159001DD64D /* LaunchScreen.storyboard in Resources */,
+				321CF3D21E398159001DD64D /* Assets.xcassets in Resources */,
+				321CF3CD1E398159001DD64D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3D91E398159001DD64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3E41E398159001DD64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321CF3C01E398159001DD64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321CF3CA1E398159001DD64D /* ViewController.swift in Sources */,
+				321CF3D01E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodeld in Sources */,
+				321CF3C81E398159001DD64D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3D71E398159001DD64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321CF3E01E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321CF3E21E398159001DD64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321CF3EB1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		321CF3DD1E398159001DD64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321CF3C31E398159001DD64D /* NeuraAppUsingCocoaPods */;
+			targetProxy = 321CF3DC1E398159001DD64D /* PBXContainerItemProxy */;
+		};
+		321CF3E81E398159001DD64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321CF3C31E398159001DD64D /* NeuraAppUsingCocoaPods */;
+			targetProxy = 321CF3E71E398159001DD64D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		321CF3CB1E398159001DD64D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321CF3CC1E398159001DD64D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		321CF3D31E398159001DD64D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321CF3D41E398159001DD64D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		321CF3ED1E398159001DD64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		321CF3EE1E398159001DD64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		321CF3F01E398159001DD64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		321CF3F11E398159001DD64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		321CF3F31E398159001DD64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraAppUsingCocoaPods.app/NeuraAppUsingCocoaPods";
+			};
+			name = Debug;
+		};
+		321CF3F41E398159001DD64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraAppUsingCocoaPods.app/NeuraAppUsingCocoaPods";
+			};
+			name = Release;
+		};
+		321CF3F61E398159001DD64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuraAppUsingCocoaPods;
+			};
+			name = Debug;
+		};
+		321CF3F71E398159001DD64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YGQPHYL32T;
+				INFOPLIST_FILE = NeuraAppUsingCocoaPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neura.NeuraAppUsingCocoaPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuraAppUsingCocoaPods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321CF3BF1E398158001DD64D /* Build configuration list for PBXProject "NeuraAppUsingCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321CF3ED1E398159001DD64D /* Debug */,
+				321CF3EE1E398159001DD64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321CF3EF1E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321CF3F01E398159001DD64D /* Debug */,
+				321CF3F11E398159001DD64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		321CF3F21E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321CF3F31E398159001DD64D /* Debug */,
+				321CF3F41E398159001DD64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		321CF3F51E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321CF3F61E398159001DD64D /* Debug */,
+				321CF3F71E398159001DD64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		321CF3CE1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				321CF3CF1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodel */,
+			);
+			currentVersion = 321CF3CF1E398159001DD64D /* NeuraAppUsingCocoaPods.xcdatamodel */;
+			path = NeuraAppUsingCocoaPods.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 321CF3BC1E398158001DD64D /* Project object */;
+}
