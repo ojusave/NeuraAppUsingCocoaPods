@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     func subscribeToEvents1(){
-        NeuraSDK.sharedInstance().subscribe(toEvent: "presenceAtHome", identifier: ("_UserArrovedHome"), webHookID: nil) { (responseData, error) in
+        NeuraSDK.sharedInstance().subscribe(toEvent: "presenceAtHome", identifier: ("_presenceAtHome"), webHookID: nil) { (responseData, error) in
             if error != nil {
                 print(error!)
                 //Handle the error subscribing
@@ -43,12 +43,14 @@ class ViewController: UIViewController {
         })
     }
 
+    
+    @IBAction func SubscribeToEvents(_ sender: Any) {
+        subscribeToEvents1()
+    }
+    
     @IBAction func SignInButton(_ sender: Any) {
         loginToNeura()
     }
 
-    @IBAction func SubscribeToEvents(_ sender: Any) {
-        subscribeToEvents1()
-    }
 }
 
