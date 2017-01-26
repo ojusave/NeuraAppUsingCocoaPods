@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import NeuraSDK
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NeuraSDK.sharedInstance().appUID = "e282a0c2e7271c021fbdfa47fccd2e173e7f8fbec7614441c3654a081e3a6488"
+        NeuraSDK.sharedInstance().appSecret = "20cd37b1c53cb651de13f2395762eef8172719838ccda27731517fed036dac40"
         return true
     }
 

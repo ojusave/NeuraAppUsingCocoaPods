@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B6403B7BB0FF83D745FEC1 /* Pods_NeuraAppUsingCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC7E75FF9AC1C7BD715C386 /* Pods_NeuraAppUsingCocoaPods.framework */; };
 		321CF3C81E398159001DD64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3C71E398159001DD64D /* AppDelegate.swift */; };
 		321CF3CA1E398159001DD64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3C91E398159001DD64D /* ViewController.swift */; };
 		321CF3CD1E398159001DD64D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321CF3CB1E398159001DD64D /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		321CF3D51E398159001DD64D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321CF3D31E398159001DD64D /* LaunchScreen.storyboard */; };
 		321CF3E01E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3DF1E398159001DD64D /* NeuraAppUsingCocoaPodsTests.swift */; };
 		321CF3EB1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CF3EA1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift */; };
+		7DFA7042D9FFE28F9FEF9012 /* Pods_NeuraAppUsingCocoaPodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCDF28320F90FD3D04B114 /* Pods_NeuraAppUsingCocoaPodsTests.framework */; };
+		BD68E44EEBD80801EE8C9950 /* Pods_NeuraAppUsingCocoaPodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C768943A27EA909FAAE4A4 /* Pods_NeuraAppUsingCocoaPodsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073B1342F9BDE03B021CE00B /* Pods-NeuraAppUsingCocoaPodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsUITests/Pods-NeuraAppUsingCocoaPodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09F6CDD17749D854E05E08BB /* Pods-NeuraAppUsingCocoaPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsTests/Pods-NeuraAppUsingCocoaPodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FC7E75FF9AC1C7BD715C386 /* Pods_NeuraAppUsingCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraAppUsingCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		321CF3C41E398159001DD64D /* NeuraAppUsingCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraAppUsingCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		321CF3C71E398159001DD64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		321CF3C91E398159001DD64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		321CF3E61E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraAppUsingCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321CF3EA1E398159001DD64D /* NeuraAppUsingCocoaPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraAppUsingCocoaPodsUITests.swift; sourceTree = "<group>"; };
 		321CF3EC1E398159001DD64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55ABCA18E932F6DDE82E4BBA /* Pods-NeuraAppUsingCocoaPodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsUITests/Pods-NeuraAppUsingCocoaPodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77DB776542E0EC7032CD3496 /* Pods-NeuraAppUsingCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPods/Pods-NeuraAppUsingCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F9A5AF714205746379B48E /* Pods-NeuraAppUsingCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPods/Pods-NeuraAppUsingCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		A6C768943A27EA909FAAE4A4 /* Pods_NeuraAppUsingCocoaPodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraAppUsingCocoaPodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE8CB4A2AFE8C64ABC080D7 /* Pods-NeuraAppUsingCocoaPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraAppUsingCocoaPodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsTests/Pods-NeuraAppUsingCocoaPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BCDF28320F90FD3D04B114 /* Pods_NeuraAppUsingCocoaPodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraAppUsingCocoaPodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B6403B7BB0FF83D745FEC1 /* Pods_NeuraAppUsingCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFA7042D9FFE28F9FEF9012 /* Pods_NeuraAppUsingCocoaPodsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD68E44EEBD80801EE8C9950 /* Pods_NeuraAppUsingCocoaPodsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				321CF3DE1E398159001DD64D /* NeuraAppUsingCocoaPodsTests */,
 				321CF3E91E398159001DD64D /* NeuraAppUsingCocoaPodsUITests */,
 				321CF3C51E398159001DD64D /* Products */,
+				604E1ACA6CD1A5E280B25BE6 /* Pods */,
+				5479CE5BDACDC21D55F2A1F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = NeuraAppUsingCocoaPodsUITests;
 			sourceTree = "<group>";
 		};
+		5479CE5BDACDC21D55F2A1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7E75FF9AC1C7BD715C386 /* Pods_NeuraAppUsingCocoaPods.framework */,
+				D8BCDF28320F90FD3D04B114 /* Pods_NeuraAppUsingCocoaPodsTests.framework */,
+				A6C768943A27EA909FAAE4A4 /* Pods_NeuraAppUsingCocoaPodsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		604E1ACA6CD1A5E280B25BE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77DB776542E0EC7032CD3496 /* Pods-NeuraAppUsingCocoaPods.debug.xcconfig */,
+				A4F9A5AF714205746379B48E /* Pods-NeuraAppUsingCocoaPods.release.xcconfig */,
+				BAE8CB4A2AFE8C64ABC080D7 /* Pods-NeuraAppUsingCocoaPodsTests.debug.xcconfig */,
+				09F6CDD17749D854E05E08BB /* Pods-NeuraAppUsingCocoaPodsTests.release.xcconfig */,
+				55ABCA18E932F6DDE82E4BBA /* Pods-NeuraAppUsingCocoaPodsUITests.debug.xcconfig */,
+				073B1342F9BDE03B021CE00B /* Pods-NeuraAppUsingCocoaPodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 321CF3EF1E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPods" */;
 			buildPhases = (
+				159DE4A75629CEA41E550DE2 /* [CP] Check Pods Manifest.lock */,
 				321CF3C01E398159001DD64D /* Sources */,
 				321CF3C11E398159001DD64D /* Frameworks */,
 				321CF3C21E398159001DD64D /* Resources */,
+				F36769AE2DE1BC7804FA21B1 /* [CP] Embed Pods Frameworks */,
+				64B3C91D8C9C46DE80F7DF39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 321CF3F21E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsTests" */;
 			buildPhases = (
+				CCAB89711607C3907D90EEC9 /* [CP] Check Pods Manifest.lock */,
 				321CF3D71E398159001DD64D /* Sources */,
 				321CF3D81E398159001DD64D /* Frameworks */,
 				321CF3D91E398159001DD64D /* Resources */,
+				71064904F75942A45C7D89F1 /* [CP] Embed Pods Frameworks */,
+				88AA065B90CBE7EAE41306CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 321CF3F51E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsUITests" */;
 			buildPhases = (
+				3A2E47F5BB6FBBCCBDFAA63A /* [CP] Check Pods Manifest.lock */,
 				321CF3E21E398159001DD64D /* Sources */,
 				321CF3E31E398159001DD64D /* Frameworks */,
 				321CF3E41E398159001DD64D /* Resources */,
+				9D3071B84255685E54097086 /* [CP] Embed Pods Frameworks */,
+				C8002BF9023F89DC4ED8E847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +247,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YGQPHYL32T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					321CF3DA1E398159001DD64D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -259,6 +313,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159DE4A75629CEA41E550DE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A2E47F5BB6FBBCCBDFAA63A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64B3C91D8C9C46DE80F7DF39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPods/Pods-NeuraAppUsingCocoaPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71064904F75942A45C7D89F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsTests/Pods-NeuraAppUsingCocoaPodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AA065B90CBE7EAE41306CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsTests/Pods-NeuraAppUsingCocoaPodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3071B84255685E54097086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsUITests/Pods-NeuraAppUsingCocoaPodsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8002BF9023F89DC4ED8E847 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPodsUITests/Pods-NeuraAppUsingCocoaPodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAB89711607C3907D90EEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F36769AE2DE1BC7804FA21B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuraAppUsingCocoaPods/Pods-NeuraAppUsingCocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		321CF3C01E398159001DD64D /* Sources */ = {
@@ -417,6 +609,7 @@
 		};
 		321CF3F01E398159001DD64D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DB776542E0EC7032CD3496 /* Pods-NeuraAppUsingCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGQPHYL32T;
@@ -430,6 +623,7 @@
 		};
 		321CF3F11E398159001DD64D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F9A5AF714205746379B48E /* Pods-NeuraAppUsingCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGQPHYL32T;
@@ -443,6 +637,7 @@
 		};
 		321CF3F31E398159001DD64D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE8CB4A2AFE8C64ABC080D7 /* Pods-NeuraAppUsingCocoaPodsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +653,7 @@
 		};
 		321CF3F41E398159001DD64D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F6CDD17749D854E05E08BB /* Pods-NeuraAppUsingCocoaPodsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +669,7 @@
 		};
 		321CF3F61E398159001DD64D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55ABCA18E932F6DDE82E4BBA /* Pods-NeuraAppUsingCocoaPodsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YGQPHYL32T;
@@ -487,6 +684,7 @@
 		};
 		321CF3F71E398159001DD64D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073B1342F9BDE03B021CE00B /* Pods-NeuraAppUsingCocoaPodsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YGQPHYL32T;
@@ -518,6 +716,7 @@
 				321CF3F11E398159001DD64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321CF3F21E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +725,7 @@
 				321CF3F41E398159001DD64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321CF3F51E398159001DD64D /* Build configuration list for PBXNativeTarget "NeuraAppUsingCocoaPodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +734,7 @@
 				321CF3F71E398159001DD64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
