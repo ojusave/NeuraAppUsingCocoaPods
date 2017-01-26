@@ -48,6 +48,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func SubscribeToEvents(_ sender: Any) {
+        subscribeToEvents1()
     }
 }
 
